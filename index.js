@@ -34,5 +34,4 @@ const job = new CronJob("0 0 */2 * * *", () => {
     tweetFrame();
 });
 
-console.log("Starting...");
 job.start();

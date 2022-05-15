@@ -18,7 +18,7 @@ I created a twitter bot that tweets a random frame from the great movie Whiplash
 ## Development
 I'm writing a mini-how-to if someone wants to do something similar with a favourite movie of theirs, or something similar.
 ### Add subtitles to movie (Optional)
-1. Get VLC, the movie's mp4 and subtitles.
+1. Get [VLC](https://www.videolan.org/), the movie's mp4 and subtitles.
 2. Test the subtitles timing with the movie by (in VLC) pressing Subtitle->Add Subtitle File and select the .srt of your choice.
 (If the timing isn't right you can use the keybinds G and H to increase or decrease subtitle's delay, I used this [page](https://subshifter.bitsnbites.eu/) to change the .srt file)
 3. Then on Media->Stream add movie and subtitles and Stream (You'll need to setup output).

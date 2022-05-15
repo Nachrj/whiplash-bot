@@ -6,7 +6,10 @@ I created a twitter bot that tweets a random frame from the great movie Whiplash
 1. Clone the repository
 2. Add "frames" folder containing all selected frames from the movie
 3. Create .env with credentials for Twitter development
-4. Run "npm install" and "node index"
+4. Run to install dependencies:
+> npm install
+5. Run to start:
+> node index
 ## Dependencies
 - [dotenv](https://www.npmjs.com/package/dotenv)
 - [cron](https://www.npmjs.com/package/cron)

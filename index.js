@@ -29,9 +29,10 @@ const tweetFrame = async () => {
     }
 }
 
-const job = new CronJob("0 0 */1 * * *", () => {
+const job = new CronJob("0 0 */2 * * *", () => {
     console.log("Cron job started.");
     tweetFrame();
 });
 
+console.log("Starting...");
 job.start();

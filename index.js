@@ -22,7 +22,7 @@ const tweetFrame = async () => {
         frame_time = getTimeStamp(frame);
 
         const mediaId = await rwClient.v1.uploadMedia(`./frames/${frame}`);
-        await rwClient.v1.tweet(`Whiplash (2014) - ${frame_time}` , { media_ids: mediaId });
+        await rwClient.v1.tweet(`Whiplash - ${frame_time}` , { media_ids: mediaId });
         console.log(`Frame posted @ ${new Date()}`);
     } catch (err) {
         console.log(err);

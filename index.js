@@ -29,8 +29,8 @@ const tweetFrame = async () => {
     }
 }
 
-// Setup a cron job to tweet every 2 hours
-const job = new CronJob("0 0 */2 * * *", () => {
+// Setup a cron job to tweet every 3 hours
+const job = new CronJob("0 0 */3 * * *", () => {
     tweetFrame();
 });
 

@@ -23,14 +23,14 @@ const tweetFrame = async () => {
 
         const mediaId = await rwClient.v1.uploadMedia(`./frames/${frame}`);
         await rwClient.v1.tweet(`Whiplash (2014) - ${frame_time}` , { media_ids: mediaId });
-        console.log("Frame posted.");
+        console.log(`Frame posted @ ${new Date()}`);
     } catch (err) {
         console.log(err);
     }
 }
 
+// Setup a cron job to tweet every 2 hours
 const job = new CronJob("0 0 */2 * * *", () => {
-    console.log("Cron job started.");
     tweetFrame();
 });
 

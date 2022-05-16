@@ -12,7 +12,7 @@ const chosenFrame = () => {
 
 const getTimeStamp = (frame) => {
     frame_number = parseInt(frame.match(/\d+/)[0]);
-    return new Date((frame_number/24-60) * 1000).toISOString().substring(11, 19)
+    return new Date((frame_number/24+60) * 1000).toISOString().substring(11, 19)
 }
 
 // Tweet frame in certain time interval:

@@ -5,7 +5,13 @@ I created a [twitter bot](https://twitter.com/WhiplashBot) that tweets a random 
 ### Setup
 1. Clone the repository
 2. Add "frames" folder containing all selected frames from the movie
-3. Create .env with credentials for Twitter development
+3. Create .env with credentials for Twitter development with the following format:
+```
+APPKEY="..."
+APPSECRET="..."
+ACCESSTOKEN="..."
+ACCESSSECRET="..."
+```
 4. Run to install dependencies:
 > npm install
 5. Run to start:

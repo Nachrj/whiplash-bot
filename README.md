@@ -1,5 +1,5 @@
 # whiplash-bot
-I created a [twitter bot](https://twitter.com/WhiplashBot) that tweets a random frame from the great movie Whiplash every 3 hours. 
+I created a [twitter bot](https://twitter.com/WhiplashBot) that tweets a random frame from the great movie Whiplash every 6 hours. 
 
 ## How to use
 ### Setup

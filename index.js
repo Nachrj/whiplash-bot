@@ -6,6 +6,8 @@ const fs = require("fs");
 const { Console } = require("console");
 const frames = fs.readdirSync("./frames");
 
+const MOVIE_NAME = "Whiplash"
+
 const chosenFrame = () => {
     return frames[Math.floor(Math.random() * frames.length)] 
 }
@@ -22,7 +24,7 @@ const tweetFrame = async () => {
         frame_time = getTimeStamp(frame);
 
         const mediaId = await rwClient.v1.uploadMedia(`./frames/${frame}`);
-        await rwClient.v1.tweet(`Whiplash - ${frame_time}` , { media_ids: mediaId });
+        await rwClient.v1.tweet(`${MOVIE_NAME} - ${frame_time}` , { media_ids: mediaId });
         console.log(`Frame posted @ ${new Date()}`);
     } catch (err) {
         console.log(err);

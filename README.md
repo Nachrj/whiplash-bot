@@ -4,7 +4,7 @@ I created a [twitter bot](https://twitter.com/WhiplashBot) that tweets a random 
 ## How to use
 ### Setup
 1. Clone the repository
-2. Add "frames" folder containing all selected frames from the movie
+2. Add to "./frames" all selected frames from the movie
 3. Create .env with credentials for Twitter development with the following format:
 ```
 APPKEY="..."

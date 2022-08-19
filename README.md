@@ -22,7 +22,7 @@ ACCESSSECRET="..."
 - [twitter-api-v2](https://www.npmjs.com/package/twitter-api-v2) 
 
 ## Development
-I'm writing a mini-how-to if someone wants to do something similar with a favourite movie of theirs, or something similar.
+I'm writing a mini-how-to if someone wants to do something similar with a favourite movie of theirs, or anything related to random image Twitter bot.
 ### Add subtitles to movie (Optional)
 1. Get [VLC](https://www.videolan.org/), the movie's mp4 and subtitles.
 2. Test the subtitles timing with the movie by (in VLC) pressing Subtitle->Add Subtitle File and select the .srt of your choice.

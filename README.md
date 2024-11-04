@@ -35,4 +35,4 @@ Then open the dropdown for Filter (Video), "Scene video filter" and config.
 2. Open the movie and let it run for the entire runtime.
 
 ## WIP
-I have a problem with the timestamp calculator for each frame, the movie standard fps is 24, by doing (frame number / 24) you get the timestamp in seconds. But testing it I noticed it is 60 seconds behind, so I added a 60s in the calculation (don't know how to solve it).
+I have a problem with the timestamp calculator for each frame, the movie standard fps is 24, by doing (frame number / 24) you get the timestamp in seconds. But testing it I noticed it is 60 seconds behind, so I added 60s in the calculation.
